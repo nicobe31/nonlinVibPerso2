@@ -1,0 +1,22 @@
+1 Experiment
+	linFreq
+	forces
+
+2 Identify
+	getFreq then env
+	ASM
+	RFS
+
+3 Understand
+	continuationNNM
+	continuationNLFR
+
+	(continuationNNM_03 and continuationNLFR_02 are intermediate step in the implementation)
+
+
+%% 
+createFit2: called by RFS
+shootinfNNM: called by continuationNNM
+shootingNLFR: called by continuationNLFR
+integration: called by continuation**
+exteriorForce and nonlinearForce: called by integration
