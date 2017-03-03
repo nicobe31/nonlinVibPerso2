@@ -6,8 +6,8 @@ if nargin <=6
     phaseF = 0;
 end
 if nargin <= 9
-    absTol = 1e-8;
-    relTol = 1e-8;
+    absTol = 1e-7;
+    relTol = 1e-7;
 end
 
 optionsOdeo = odeset('RelTol',relTol, 'AbsTol',absTol);
